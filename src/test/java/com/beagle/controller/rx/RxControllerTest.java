@@ -28,7 +28,7 @@ public class RxControllerTest {
 
   @Before
   public void setUp() throws Exception {
-    this.mockMvc = MockMvcBuilders.webAppContextSetup(wac).dispatchOptions(true).build();
+    this.mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
   }
 
   @Test
