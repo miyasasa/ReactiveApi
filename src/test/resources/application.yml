@@ -1,0 +1,13 @@
+
+#============= API Config ================
+# Uri Config
+api:
+  host: https://jsonplaceholder.typicode.com
+  posts-path: /posts/
+  comments-path: /comments/
+
+# Rest client Config
+rest:
+  client:
+    connection-timeout: 30000
+    read-timeout: 30000
